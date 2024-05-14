@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="section-menu">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container p-0">
+              <a class="navbar-brand fs-2" href="#">Donate Tutorial</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">about</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Donate</a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section class="section-form">
+        <form action="" class="container ">
+            <div class="row">
+                <div class="col-xl-6">
+                    <h1 class="h2 mt-3">Donate</h1>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <label for="" class="h6 ">First Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="col">
+                            <label for="" class="h6">Last Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        </div>
+                    <label for="" class="mt-3">Country</label>
+                    
+                    <select class="form-select mt-2" id="floatingSelectGrid">
+                        <option selected>Choose...</option>
+                        <option value="1">Cambodia</option>
+                        <option value="2">Tailand</option>
+                        <option value="3">English</option>
+                    </select>
+                    <label for="" class="mt-3">Adress</label>
+                    <input type="text" class="form-control mt-2" required>
+                    <input type="text" class="form-control mt-2" required>
+                    <input type="text" class="form-control mt-2" required>
+                    <div class="input-group mt-3">
+                        <div class="row w-lg-80 ">
+                            <div class="col-6">
+                                <label for="" class="h6 ">City</label>
+                                <input type="text" class="form-control " required>
+                            </div>
+                            <div class="col-6">
+                                <label for="" class="h6">Postal Code</label>
+                                <input type="text" class="form-control " required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <label for="" class="h6 ">Phone</label>
+                            <input type="text" class="form-control " required>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="h6">Email</label>
+                            <input type="text" class="form-control " required>
+                        </div>
+                    </div>
+                    
+                    <input type="checkbox" class="mt-3" required>
+                    <label  for="">Send email updates</label>
+                    <p>Contributions are not tax deductible.</p>
+                </div>
+                <div class="col-xl-6 ">
+                    <!-- <h1 class="h2 mt-3 mb-5"></h1> -->
+                    <label class="h6 mt-6" for="">Amount</label><br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                        <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                    </div><br>
+                    <label for="" class="h6 mt-3 ">Order $</label>
+                    <input type="text" class="form-control w-25" placeholder="0.00">
+                    <label for="" class="h5 mt-5 ">Credit card number</label>
+                    <input type="text" class="form-control" id="invalidCheck" required>
+                    <div class="card-img mt-4">
+                        <img src="img/ABA.png" class="" alt="">
+                        <img src="img/maestro.png" class="" alt="">
+                        <img src="img/paypal.png" class="" alt="">
+                        <img src="img/vasa.png" class="" alt="">
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <div class="row w-80">
+                                <label for="" class="h6 ">Expires</label><br>
+                                <div class="col-6">
+                                    <select class="form-select  d-inline-block " id="floatingSelectGrid">
+                                        <option disabled>YYYY-</option>
+                                        <option value="1">2011</option>
+                                        <option value="1">2012</option>
+                                        <option value="1">2013</option>
+                                        <option value="1">2014</option>
+                                        <option value="1">2015</option>
+                                        <option value="1">2016</option>
+                                        <option value="1">2017</option>
+                                        <option value="1">2018</option>
+                                        <option value="1">2018</option>
+                                        <option value="1">2020</option>
+                                        <option value="1">2021</option>
+                                        <option value="1">2022</option>
+                                        <option value="1">2023</option>
+                                        <option value="1">2024</option>
+                                        
+                                    </select>
+                            
+                                </div>
+                                <div class="col-6">
+                                    <select class="form-select d-inline-block " id="floatingSelectGrid">
+                                        <option disabled>DD-MM</option>
+                                        <option value="1">15-May</option>
+                                        <option value="1">16-May</option>
+                                        <option value="1">17-May</option>
+                                        <option value="1">18-May</option>
+                                        <option value="1">19-May</option>
+                                        <option value="1">20-May</option>
+                                        <option value="1">21-May</option>
+                                        <option value="1">22-May</option>
+                                        <option value="1">23-May</option>
+                                        <option value="1">24-May</option>
+                                        <option value="1">25-May</option>
+                                        <option value="1">26-May</option>
+                                        <option value="1">27-May</option>
+                                        <option value="1">28-May</option>
+                                        <option value="1">29-May</option>
+                                        <option value="1">30-May</option>
+                                        <option value="1">31-May</option>
+                                        
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <label for="" class="h6">Security code (on back)</label>
+                            <input type="" class="form-control " required>
+                        </div>
+                    </div>
+                    <div class="form-check mt-3">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Don't publish my donation on the website.
+                        </label>
+                    </div>
+
+                    <input type="submit" class="btn btn-primary mt-5" value="Prosecc Donation">
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <script src="boot/bootstrap.bundle.min.js"></script>
+
+
+</html>
